@@ -1,0 +1,402 @@
+@media screen and (max-width: 1360px){
+    .scaling-brands .brand-lists{
+        gap: 30px;
+    }
+    .scaling-brands .brand-lists .brand-item {
+        width: calc(calc(100% - 120px) / 5);
+        display: flex    ;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .testimonial-wrap {
+        padding-left: 0;
+    }
+    /* partner */
+    .cart-upsells .cart-upsell-wrap{
+        padding: 0;
+    }
+    /* pricing */
+    .first-pricing .pricing-lists{
+        padding: 0;
+    }
+    .how-grow .how-grow-lists .list-item {
+        width: calc(calc(100% - 60px) / 3);
+        max-width: unset !important;
+    }
+
+}
+@media screen and (max-width: 981px){
+    .home-banner, 
+    section.scaling-brands,
+    section.reviews,
+    section.testimonial, 
+    section.cart-upsells,
+    section.teams,
+    section.automatically,
+    section.increase-order,
+    section.submit-lead,
+    section.why-join,
+    section.first-pricing,
+    section.how-grow
+     {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    section.increase-order{
+        margin-bottom: 60px;
+    }
+    section.pricing-banner,
+    section.partner-banner,
+    #footer{
+        padding-bottom: 60px;
+    }
+    
+    .header .header-wrap {
+        gap: 60px;
+    }
+    .header-menu .nav-menu {
+        gap: 0;
+    }
+    .reviews .review-list .review-item {
+        width: calc(calc(100% - 16px) / 2);
+    }
+    .cart-upsells .cart-upsell-box .site-title {
+        max-width: 100%;
+        text-align: center;
+    }
+    .cart-upsells .box-step .step-item:not(:last-child)::after {
+        bottom: -60px;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .cart-upsells .box-step .step-item:not(:last-child) .step-btn::after{
+        display: none;
+    }
+    .cart-upsells .box-step .step-item {
+        flex-direction: column;
+    }
+    .cart-upsells .box-step .step-item .step-content {
+        text-align: center;
+    }
+    .cart-upsells .box-step .upsell-step {
+        gap: 80px;
+    }
+    .teams .team-lists .team-item {
+        width: calc(calc(100% - 40px) / 3);
+    }
+    #footer .footer-top .footer-item {
+        width: 25% !important;
+        display: flex    ;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0 !important;
+    }
+    .automatically-list .automatically-item {
+        width: calc(100% / 3) !important;
+    }
+    .teams .team-lists {
+        align-items: flex-start;
+    }
+    .cart-upsells .cart-upsell-box{
+        margin-top: 60px;
+    }
+    .reviews .review-item .review-tite .name{
+        font-size: 20px;
+    }
+    .cart-upsells .box-step .step-item .step-content {
+        font-size: 16px;
+    }
+    .increase-order .increase-order-wrap .btn-box{
+        margin-top: 60px;
+    }
+    /* partner */
+    .partner-banner .top-section-wrap {
+        padding: 0;
+    }
+    .partner-banner .box-left, .partner-banner .box-right {
+        width: calc(50% - 10px);
+    }
+    .submit-lead .submit-lead-box {
+        padding: 28px;
+    }
+    .submit-lead-box .box-left .title, 
+    .why-join-lists .list-item .title {
+        font-size: 22px;
+    }
+    /* pricing */
+    .first-pricing .pricing-lists .list-item {
+        padding: 30px 24px;
+    }
+    .pricing-lists .list-item .item-content ul.check {
+        gap: 16px;
+    }
+    .faqs .faqs-box .faqs-list {
+        gap: 30px;
+    }
+    .first-pricing .pricing-lists,
+    .faqs .faqs-box,
+    .how-grow .how-grow-lists{
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .home-banner, 
+    section.scaling-brands,
+    section.reviews,
+    section.testimonial, 
+    section.cart-upsells,
+    section.teams,
+    section.automatically,
+    section.increase-order,
+    section.submit-lead,
+    section.why-join,
+    section.partner-banner,
+    section.first-pricing,
+    section.how-grow
+     {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    section.increase-order{
+        margin-bottom: 40px;
+    }
+    section.pricing-banner,
+    #footer{
+        padding-bottom: 40px;
+    }
+    .cart-upsells .cart-upsell-box{
+        margin-top: 40px;
+    }
+    .increase-order .increase-order-wrap .btn-box{
+        margin-top: 40px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+    .header .header-wrap {
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #footer .footer-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+    #footer .footer-top .footer-item {
+        display: flex    ;
+        align-items: flex-start;
+        padding: 0;
+        width: 100% !important;
+    }
+    #footer .footer-bottom {
+        margin: 40px 0 0;
+    }
+    #footer .footer-bottom .term-privacy a, 
+    #footer .footer-bottom .copyright,
+    #footer .footer-top .item-menu .footer-nav a {
+        font-weight: 400;
+    }
+    #footer .footer-top .item-menu.explore .footer-nav{
+        gap: 20px;
+    }
+    .testimonial-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial .testimonial-content img {
+        width: 150px;
+    }
+    .testimonial .testimonial-content {
+        display: flex    ;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .testimonial .testimonial-content .content
+     {
+        font-weight: 400;
+    }
+    .testimonial .testimonial-content .author{
+        font-weight: 700;
+    }
+    .scaling-brands .brand-lists {
+        gap: 20px;
+    }
+    .scaling-brands .brand-lists .brand-item {
+        width: calc(calc(100% - 60px) / 4);
+    }
+    .reviews .review-list .review-item {
+        width: 100%;
+    }
+    .rate-group .rate-top img {
+        width: 120px;
+    }
+    .rate-group .rate-top span {
+        font-size: 20px;
+    }
+    .rate-group .rate-bottom p {
+        font-size: 14px;
+    }
+    .rate-review {
+        display: flex    ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rate-group .rate-top {
+        margin: 0;
+    }
+    .site-title br{
+        display: none;
+    }
+    .scaling-brands .brand-lists img {
+        max-height: 50px;
+    }
+    .cart-upsells .box-converting .converting-ui {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .cart-upsells .converting-ui .box-left, 
+    .cart-upsells .converting-ui .box-right,
+    .cart-upsells .see-products .box-left, 
+    .cart-upsells .see-products .box-right {
+        width: 100%;
+    }
+    .cart-upsells .cart-upsell-box .see-products{
+        flex-direction: column;
+    }
+    .teams .team-lists .team-item {
+        width: calc(calc(100% - 20px) / 2);
+    }
+    .teams .team-lists .team-item .testimonial {
+        margin-top: 12px;
+    }
+    .automatically-list .automatically-item {
+        width: 50% !important;
+        border: none !important;
+        padding: 40px 20px !important;
+    }
+    .automatically-list .automatically-item:nth-child(odd) {
+        border-right: 1px solid rgb(0 0 0 / 20%) !important;
+    }
+    .automatically-list .automatically-item:nth-child(n+3) {
+        border-top: 1px solid rgb(0 0 0 / 20%) !important;
+    }
+    .teams .team-lists .team-item .item-image {
+        padding: 0 10px 20px 10px;
+    }
+    .teams .team-lists .team-item .influencer, 
+    .teams .team-lists .team-item .testimonial{
+        font-size: 16px;
+    }
+    .cart-upsells .see-products .box-right .content{
+        text-align: center;
+    }
+    /* partner */
+    .partner-banner .top-section-wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+    .partner-banner .box-left, .partner-banner .box-right {
+        width: 100%;
+    }
+    .partner-banner .desc p:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    .partner-banner .btn-box {
+        margin: 40px auto 0;
+        max-width: 80%;
+    }
+    .why-join-lists .list-item {
+        width: 100%;
+    }
+    .why-join-lists .list-item .text {
+        max-width: 100% !important;
+        font-size: 16px;
+    }
+    .partner-banner .desc,
+    .submit-lead-box .box-left .text{
+        font-size: 16px;
+    }
+    .submit-lead .submit-lead-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .submit-lead .submit-lead-box .btn-box{
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    /* pricing */
+    .pricing-banner .banner-lists .list-item .item-bottom,
+    .first-pricing .pricing-heading .text,
+    .how-grow .how-grow-heading .text,
+    .how-grow-lists .list-item .text,
+    .faqs-box .faqs-list .answer {
+        font-size: 16px;
+    }
+    .pricing-banner .banner-lists,
+    .first-pricing .pricing-lists,
+    .how-grow .how-grow-lists {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .pricing-banner .banner-lists .list-item,
+    .first-pricing .pricing-lists .list-item,
+    .how-grow .how-grow-lists .list-item {
+        width: 100%;
+    }
+    .how-grow .how-grow-lists .list-item {
+        max-width: 80% !important;
+        margin: 0 auto;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px){
+    
+    
+    .rate-group {
+        flex-direction: column;
+    }
+    .scaling-brands .brand-lists .brand-item {
+        width: calc(calc(100% - 40px) / 3);
+    }
+    .teams .team-lists .team-item{
+        width: 100%;
+    }
+    .automatically .automatically-wrap .automatically-list .automatically-item {
+        width: 100% !important;
+        border: none !important;
+        border-top: 1px solid rgb(0 0 0 / 20%) !important;
+    }
+    .automatically .automatically-wrap .automatically-list .automatically-item:first-child{
+        border: none !important;
+    }
+    .reviews .review-btn,
+    .home-banner .btn-group,
+    .increase-order .increase-order-wrap .btn-box {
+        flex-direction: column;
+        width: 80%;
+    }
+    .reviews .review-btn .btn,
+    .increase-order .increase-order-wrap .btn-box .btn,
+    .home-banner .btn-group .btn {
+        width: 100%;
+    }
+
+    /* partner */
+    .submit-lead .submit-lead-box .btn-box,
+    .partner-banner .btn-box .btn{
+        width: 100%;
+    }
+    .how-grow .how-grow-lists .list-item {
+        max-width: unset !important;
+    }
+}
