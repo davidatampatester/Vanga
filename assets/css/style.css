@@ -618,7 +618,7 @@ section.testimonial .container {
 /*  */
 section.cart-upsells {
     padding-top: 65px;
-    padding-bottom: 111px;
+    padding-bottom: 93px;
 }
 .cart-upsells .container {
     max-width: 1032px;
@@ -665,7 +665,7 @@ section.cart-upsells {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    bottom: -58px;
+    bottom: -54px;
     left: 130px;
 }
 .cart-upsells .box-step .step-item:not(:last-child)::after{
@@ -677,6 +677,15 @@ section.cart-upsells {
     gap: 10px;
     flex-shrink: 0;
     position: relative;
+}
+.cart-upsells .box-step .step-item.checkout .step-btn {
+    margin-top: 4px;
+}
+.cart-upsells .box-step .step-item.post-purchase .step-btn {
+    margin-top: 7px;
+}
+.cart-upsells .box-step .step-item.thank-you .step-btn {
+    margin-top: -15px;
 }
 .cart-upsells .box-step .step-item .step-btn:hover {
     background: #1C3487;
@@ -761,10 +770,12 @@ section.cart-upsells {
     justify-content: space-between;
 }
 .cart-upsells .see-products .box-left {
-    width: calc(493 / 1022 * 100%);
+    width: calc(551 / 1022 * 100%);
 }
 .cart-upsells .see-products .box-left img {
     width: 100%;
+    margin-left: -24px;
+    margin-top: -21px;
 }
 .cart-upsells .see-products .box-right {
     width: calc(490 / 1022 * 100%);
@@ -776,6 +787,12 @@ section.cart-upsells {
     letter-spacing: -0.01em;
     margin-top: 16px;
     color: #4A4A4A;
+}
+.cart-upsells .cart-upsell-box.box-see .site-title {
+    margin-left: -8px;
+}
+.cart-upsells .cart-upsell-box.box-see .content {
+    margin-left: -8px;
 }
 /*  */
 section.teams {
@@ -795,12 +812,11 @@ section.teams {
     max-width: 1252px;
 }
 .teams .team-lists {
-    display: flex;
+    display: flex    ;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 20px;
     margin-top: 32px;
-    align-items: center;
 }
 .teams .team-lists .team-item {
     width: calc(calc(100% - 60px) / 4);
@@ -811,6 +827,7 @@ section.teams {
 }
 .teams .team-lists .team-item .item-image {
     padding: 0 28px 24px 28px;
+    width: 100%;
 }
 .team-lists .team-item .item-image .thumbnail {
     border-radius: 48px;
