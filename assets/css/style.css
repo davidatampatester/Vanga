@@ -10,6 +10,9 @@ html, body, *{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -293,6 +296,17 @@ body.open-menu .menu-button span:nth-child(3) {
     display: flex;
     flex-direction: row;
 }
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-item-group-right {
+    margin-left: auto;
+    display: flex;
+    gap: 66px; /* optional, spacing between Explore and Company */
+}
 #footer .footer-top .item-logo {
     width: calc(286 / 1212 * 100%);
 }
@@ -316,25 +330,32 @@ body.open-menu .menu-button span:nth-child(3) {
     gap: 20px;
 }
 #footer .footer-top .item-menu:last-child {
-    padding-left: 66px;
+    padding-left: 40px;
 }
 #footer .footer-top .item-menu .title {
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: 700;
+    gap: 14px;
+
 }
 #footer .footer-top .item-menu .footer-nav {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 8px;
+     margin-bottom: -12px;
 }
 #footer .footer-top .item-menu.explore .footer-nav {
-    gap: 14px;
+    gap: 18px;
+    white-space: nowrap; /* Prevents wrapping for Help Center */
+    margin-bottom: 2px;
+
 }
 #footer .footer-top .item-menu .footer-nav a {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 700;
+    
 }
 
 #footer .footer-top .item-install .btn-install img {
@@ -1345,3 +1366,26 @@ section.how-grow .container {
 .pricing section.increase-order {
     margin-bottom: 102px;
 }
+
+/* This is the CSS code for the fade-in sticky Nav*/
+#header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+    z-index: 9999; 
+  }
+  
+  .sticky-header-hidden {
+    transform: translateY(-100%); /* Slide up when scrolling down */
+    opacity: 0; /* Fade out when scrolling down */
+  }
+  
+  .sticky-header-visible {
+    transform: translateY(0); /* Slide back down when scrolling up */
+    opacity: 1; /* Fade in when scrolling up */
+  }
+  /* This is the CSS code for the fade-in sticky Nav*/
+
+  
