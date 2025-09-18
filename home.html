@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="assets/css/reponsive.css">
 </head>
 <body>
+    <script>
+const APP_ID = "qpiuy6zr" // Replace with your workspace ID
+
+window.intercomSettings = {
+  app_id: APP_ID
+};
+
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
     <header id="header" class="px-20 header" >
         <div class="container">
             <div class="header-wrap">
@@ -22,7 +31,7 @@
                             <a href="#features" class="menu-link">Features</a>
                         </li>
                         <li class="menu-item"><a href="pricing.html" class="menu-link">Pricing</a></li>
-                        <li class="menu-item"><a href="https://help.briocommerce.com/en/collections/6112555-vanga-ai"target="_blank" rel="noopener noreferrer" class="menu-link">Help Centre</a></li>
+                        <li class="menu-item"><a href="https://intercom.help/vanga-llc/en" target="_blank" rel="noopener noreferrer" class="menu-link">Help Centre</a></li>
                         <li class="menu-item"><a href="partners.html" class="menu-link">Partner</a></li>
                     </ul>
                     <div class="menu-button hide-pc" aria-label="Menu Button">
@@ -598,4 +607,5 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/style.js"></script>
 </body>
+
 </html>
