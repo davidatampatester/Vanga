@@ -1189,6 +1189,7 @@ section.first-pricing {
     padding: 0 4px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 10px;
     margin-top: 63px;
 }
