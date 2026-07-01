@@ -123,6 +123,12 @@ h1{
 #header{
     position: relative;
 }
+.header-logo img {
+    clip-path: inset(0 33px 0 0);
+}
+.footer-logo img {
+    clip-path: inset(0 27px 0 0);
+}
 .header .header-wrap {
     display: flex;
     flex-direction: row;
